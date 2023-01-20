@@ -1,0 +1,76 @@
+.card-new {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0);
+    min-height: 500px;      
+    width: 800px;  
+    font-size: 1.5rem;
+    justify-content: center;
+
+    p:first-of-type {
+        text-align: center;
+        width: 100%;
+    }
+
+    .form-element {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 90%;
+        position: relative;
+
+        input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+        }
+    }
+
+    .control {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .add {
+            background-color: #328434;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card-new {
+        gap: 4px;
+        width: 350px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 1.2rem;
+
+        .form-element {
+            width: 90%;
+
+            p {
+                text-align: left;
+            }
+
+            input {
+                margin: 0;
+                font-size: 0.8rem;
+            }
+
+            .control {
+                margin-top: 15px;
+            }
+        }
+    }
+}

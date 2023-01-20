@@ -1,0 +1,40 @@
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(207,211,214,1);
+
+    .card-image{
+        margin: auto;
+
+        img {
+            width: 275px;
+            height: 275px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 200px;
+        height: 300px;
+        padding: 5px;
+        border-radius: 10px;
+
+        font-size: 0.75rem;
+
+        .card-image {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}

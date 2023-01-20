@@ -1,0 +1,49 @@
+{
+    "loginpage": "Login page",
+    "registerpage": "Register page",
+    "user": {
+        "username": "Username",
+        "password": "Password",
+        "firstname": "First name",
+        "lastname": "Last name",
+        "phone": "Phone",
+        "email": "Email",
+        "img": "Image",
+        "admin": "Admin"
+    },
+    "login": "Login",
+    "home": "Home",
+    "logout": "Logout",
+    "register": "Register",
+    "card": {
+        "name": "Name of product",
+        "color": "Color of product",
+        "brand": "Brand of product",
+        "price": "Price of product",
+        "description": "Description of product",
+        "img": "Image of product"
+    },
+    "updatecard": "Update product",
+    "deletecard": "Delete product",
+    "addproduct": "Add product",
+    "editproduct": "Edit product",
+    "backtodetail": "Back to detail page",
+    "new": "New",
+    "success": {
+        "login": "Login successfully",
+        "logout": "Logout successfully",
+        "register": "Register successfully",
+        "insert": "Product inserted successfully",
+        "update": "Product updated successfully",
+        "delete": "Product deleted successfully"
+    },
+    "error": {
+        "login": "Login failed",
+        "logout": "Logout failed",
+        "register": "Register failed",
+        "insert": "Product insertion failed",
+        "update": "Product update failed",
+        "delete": "Product deletion failed",
+        "img": "File store failed"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "loginpage": "Trang đăng nhập",
+    "registerpage": "Trang đăng ký",
+    "user": {
+        "username": "Tên người dùng",
+        "password": "Mật khẩu",
+        "firstname": "Họ",
+        "lastname": "Tên",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "img": "Ảnh",
+        "admin": "Quản trị viên"
+    },
+    "login": "Đăng nhập",
+    "home": "Trang chủ",
+    "logout": "Đăng xuất",
+    "register": "Đăng ký",
+    "card": {
+        "name": "Tên sản phẩm",
+        "color": "Màu sắc",
+        "brand": "Hãng sản xuất",
+        "price": "Giá sản phẩm",
+        "description": "Mô tả sản phẩm",
+        "img": "Ảnh sản phẩm"
+    },
+    "updatecard": "Cập nhật sản phẩm",
+    "deletecard": "Xóa sản phẩm",
+    "addproduct": "Thêm sản phẩm",
+    "editproduct": "Sửa thông tin sản phẩm",
+    "backtodetail": "Quay lại chi tiết",
+    "new": "Mới",
+    "success": {
+        "login": "Đăng nhập thành công",
+        "logout": "Đăng xuất thành công",
+        "register": "Đăng ký thành công",
+        "insert": "Thêm sản phẩm thành công",
+        "update": "Cập nhật sản phẩm thành công",
+        "delete": "Xóa sản phẩm thành công"
+    },
+    "error": {
+        "login": "Đăng nhập thất bại",
+        "logout": "Đăng xuất thất bại",
+        "register": "Đăng ký thất bại",
+        "insert": "Thêm sản phẩm thất bại",
+        "update": "Cập nhật sản phẩm thất bại",
+        "delete": "Xóa sản phẩm thất bại",
+        "img": "Lưu ảnh thất bại"
+    }
+}
