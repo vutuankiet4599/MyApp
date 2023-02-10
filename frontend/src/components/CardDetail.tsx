@@ -38,7 +38,7 @@ const CardDetail = (props: any) => {
             data.image = data.image? data.image : "";
             setCard(data);
         })
-    });
+    }, []);
 
     useEffect(() => {
         props.language ? setLanguage(vi) : setLanguage(en);
