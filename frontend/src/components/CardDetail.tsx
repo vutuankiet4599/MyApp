@@ -30,7 +30,7 @@ const CardDetail = (props: any) => {
     let navigate:NavigateFunction = useNavigate();
 
     useEffect(() => {
-        axios.get<ICardDetail>(`http://localhost:5000/api/v1/product/${params["id"]}`)
+        axios.get<ICardDetail>(`${process.env.REACT_APP_BACKEND_URI}/api/v1/product/${params["id"]}`)
         .then((res) => {
             let data: ICardDetail = Object.values(res.data)[2];
             data.color = data.color ? data.color : "";
